@@ -1,0 +1,20 @@
+
+> @abovebelow/studio@ build /Users/trevspace/Space/weareabovebelow/abovebelow/apps/studio
+> sanity build
+
+- Clean output folder
+✔ Clean output folder (1ms)
+- Build Sanity Studio
+No `sanity.config.js`/`sanity.config.ts` found - using default studio config
+✖ Build Sanity Studio
+
+Error: [vite]: Rollup failed to resolve import "react" from "../../node_modules/.pnpm/sanity@3.0.0_react-dom@18.2.0_react@18.3.1_styled-components@5.3.11/node_modules/sanity/lib/index.esm.js".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`
+    at onRollupWarning (file://~/Space/weareabovebelow/abovebelow/node_modules/.pnpm/vite@3.2.11/node_modules/vite/dist/node/chunks/dep-3e87c7b2.js:45910:19)
+    at onwarn (file://~/Space/weareabovebelow/abovebelow/node_modules/.pnpm/vite@3.2.11/node_modules/vite/dist/node/chunks/dep-3e87c7b2.js:45681:13)
+    at Object.onwarn (file://~/Space/weareabovebelow/abovebelow/node_modules/.pnpm/rollup@2.79.2/node_modules/rollup/dist/es/shared/rollup.js:23263:13)
+    at ModuleLoader.handleResolveId (file://~/Space/weareabovebelow/abovebelow/node_modules/.pnpm/rollup@2.79.2/node_modules/rollup/dist/es/shared/rollup.js:22158:26)
+    at file://~/Space/weareabovebelow/abovebelow/node_modules/.pnpm/rollup@2.79.2/node_modules/rollup/dist/es/shared/rollup.js:22119:26
+ ELIFECYCLE  Command failed with exit code 1.

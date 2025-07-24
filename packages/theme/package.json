@@ -1,0 +1,7 @@
+{
+  "name": "@abovebelow/theme",
+  "main": "index.ts",
+  "dependencies": {
+    "styled-components": "^6.0.0"
+  }
+}

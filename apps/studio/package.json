@@ -1,0 +1,11 @@
+{
+  "name": "@abovebelow/studio",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build"
+  },
+  "dependencies": {
+    "sanity": "^3.0.0",
+    "styled-components": "^5.2"
+  }
+}
